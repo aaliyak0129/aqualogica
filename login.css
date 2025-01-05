@@ -1,0 +1,174 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+/* marquee css */
+marquee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(33, 33, 170);
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  /* navbar css */
+      nav{
+        display: flex;
+        justify-content:space-around;
+    padding: 10px;}
+      nav ul{display: flex;
+      list-style: none;
+      justify-content: space-around;}  
+      nav ul li a{
+        text-decoration: none;
+        display: flex;
+        justify-content:center;
+        padding: 10px;
+        color: black;
+      }
+      /* div section css */
+      div{padding: 10px;
+    text-align: center;
+    text-decoration: none;}
+    div a{
+        text-decoration: none;
+        margin: 10px;
+        color: black;
+    }
+    div a i{color: rgb(60, 60, 254);}
+    nav img{
+        width: 160px;
+    
+    }
+    
+/* Login Container */
+.logincontainer {
+    background-color: #888fed;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:white;
+}
+
+/* Input css */
+.input {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input label {
+    display: block;
+    font-size: 14px;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login Button css */
+.loginbutton {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loginbutton:hover {
+    background-color: #0056b3;
+}
+
+/* Register Link */
+.register{
+    margin-top: 15px;
+    font-size: 14px;
+    color:white;
+}
+
+.register a {
+    color: white;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+/* footer css */
+.footer {
+    background-color:rgb(37, 37, 103);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #35128f;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #1e90ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: white;
+}
